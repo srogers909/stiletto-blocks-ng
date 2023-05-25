@@ -1,0 +1,19 @@
+@import './../../styles/themes/dark1/palette';
+
+@media screen and (max-width: 1440px) {
+  .game-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background-color: $background; 
+    color: $foreground;
+    margin: 0 auto 0;
+    padding: 20px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .game-wrapper {
+    width: 100%;
+    min-width: 1440px;
+  }
+}
